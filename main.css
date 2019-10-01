@@ -1,0 +1,142 @@
+body { margin-left: 100px;
+margin-right: 100px;
+top-margin:0px;
+background-color:#FFB7B3;}
+
+/* Home */
+p.dog {
+color:#FF4F46;
+text-shadow: 3px 3px #FF847C;
+font-family: 'Oswald', sans-serif;
+font-size:60px;
+padding:3px;
+margin-left:40px;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+img.dog1 {
+float: left;
+margin-left:10px;
+margin-right:10px;
+width:20%;
+padding:0px;
+border:4px solid #FF4F46;
+
+}
+
+p.info {
+font-size:20px;
+margin-top:0px;
+color:#FF3333;
+font-family: 'Permanent Marker', cursive;
+text-shadow: 1px 1px #FF847C;
+}
+
+img.dogpics {
+width:20%;
+border:4px solid #FF4F46;
+}
+
+/* The History */
+p.history {
+color:#FF4F46;
+text-shadow: 3px 3px #FF847C;
+font-family: 'Oswald', sans-serif;
+font-size:60px;
+padding:3px;
+margin-left:40px;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+img.doggo
+{ border:4px solid #FF4F46;
+width:30%; 
+float:left;
+margin-right:10px;
+}
+
+p.infodog {
+ font-size:20px;
+margin-top:0px;
+color:#FF3333;
+font-family: 'Permanent Marker', cursive;
+
+}
+
+p.infodog2 {
+ font-size:20px;
+margin-top:0px;
+color:#FF3333;
+font-family: 'Permanent Marker', cursive;
+
+}
+
+img.doggo2 {
+border:4px solid #FF4F46;
+width:20%;
+}
+
+/* The Present */
+
+
+/* Navigation Bar */
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #FFA39E;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: 'Mansalva', cursive;
+  
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #FEE5DC;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #FF6B4C;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #FF6B4C;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 9000px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+/* Navigation Bar End */
+
